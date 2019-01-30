@@ -1,0 +1,633 @@
+{
+    "title": "touchdemo01",
+    "color": "teal",
+    "dependencies": {
+        "core/g": "dev"
+    },
+    "assets": {},
+    "functions": [
+        {
+            "name": "main",
+            "type": "network",
+            "renderedNode": "combine5",
+            "nodes": [
+                {
+                    "name": "touch0",
+                    "x": 105,
+                    "y": 55,
+                    "fn": "g.makePoint",
+                    "values": {}
+                },
+                {
+                    "name": "touch1",
+                    "x": 145,
+                    "y": 105,
+                    "fn": "g.makePoint",
+                    "values": {
+                        "x": 100
+                    }
+                },
+                {
+                    "name": "combine1",
+                    "x": 95,
+                    "y": 495,
+                    "fn": "g.combine"
+                },
+                {
+                    "name": "touch2",
+                    "x": 176.3065330903567,
+                    "y": 165,
+                    "fn": "g.makePoint",
+                    "values": {
+                        "x": 200
+                    }
+                },
+                {
+                    "name": "touch3",
+                    "x": 215,
+                    "y": 215,
+                    "fn": "g.makePoint",
+                    "values": {
+                        "x": 300
+                    }
+                },
+                {
+                    "name": "touch4",
+                    "x": 245,
+                    "y": 275,
+                    "fn": "g.makePoint",
+                    "values": {
+                        "x": 400
+                    }
+                },
+                {
+                    "name": "touch5",
+                    "x": 406.30653309035677,
+                    "y": 63.69346690964326,
+                    "fn": "g.makePoint",
+                    "values": {
+                        "y": 100
+                    }
+                },
+                {
+                    "name": "touch6",
+                    "x": 445,
+                    "y": 116.30653309035674,
+                    "fn": "g.makePoint",
+                    "values": {
+                        "x": 100,
+                        "y": 100
+                    }
+                },
+                {
+                    "name": "combine2",
+                    "x": 405,
+                    "y": 495,
+                    "fn": "g.combine"
+                },
+                {
+                    "name": "touch7",
+                    "x": 475,
+                    "y": 175,
+                    "fn": "g.makePoint",
+                    "values": {
+                        "x": 200,
+                        "y": 100
+                    }
+                },
+                {
+                    "name": "touch8",
+                    "x": 515,
+                    "y": 225,
+                    "fn": "g.makePoint",
+                    "values": {
+                        "x": 300,
+                        "y": 100
+                    }
+                },
+                {
+                    "name": "touch9",
+                    "x": 545,
+                    "y": 285,
+                    "fn": "g.makePoint",
+                    "values": {
+                        "x": 400,
+                        "y": 100
+                    }
+                },
+                {
+                    "name": "touch10",
+                    "x": 705,
+                    "y": 65,
+                    "fn": "g.makePoint",
+                    "values": {
+                        "y": 200
+                    }
+                },
+                {
+                    "name": "touch11",
+                    "x": 745,
+                    "y": 115,
+                    "fn": "g.makePoint",
+                    "values": {
+                        "x": 100,
+                        "y": 200
+                    }
+                },
+                {
+                    "name": "combine3",
+                    "x": 705,
+                    "y": 495,
+                    "fn": "g.combine"
+                },
+                {
+                    "name": "touch12",
+                    "x": 775,
+                    "y": 175,
+                    "fn": "g.makePoint",
+                    "values": {
+                        "x": 200,
+                        "y": 200
+                    }
+                },
+                {
+                    "name": "touch13",
+                    "x": 815,
+                    "y": 225,
+                    "fn": "g.makePoint",
+                    "values": {
+                        "x": 300,
+                        "y": 200
+                    }
+                },
+                {
+                    "name": "touch14",
+                    "x": 845,
+                    "y": 285,
+                    "fn": "g.makePoint",
+                    "values": {
+                        "x": 400,
+                        "y": 200
+                    }
+                },
+                {
+                    "name": "touch15",
+                    "x": 1005,
+                    "y": 76.30653309035675,
+                    "fn": "g.makePoint",
+                    "values": {
+                        "y": 300
+                    }
+                },
+                {
+                    "name": "touch16",
+                    "x": 1045,
+                    "y": 125,
+                    "fn": "g.makePoint",
+                    "values": {
+                        "x": 100,
+                        "y": 300
+                    }
+                },
+                {
+                    "name": "combine4",
+                    "x": 1005,
+                    "y": 496,
+                    "fn": "g.combine"
+                },
+                {
+                    "name": "touch17",
+                    "x": 1075,
+                    "y": 185,
+                    "fn": "g.makePoint",
+                    "values": {
+                        "x": 200,
+                        "y": 300
+                    }
+                },
+                {
+                    "name": "touch18",
+                    "x": 1115,
+                    "y": 235,
+                    "fn": "g.makePoint",
+                    "values": {
+                        "x": 300,
+                        "y": 300
+                    }
+                },
+                {
+                    "name": "touch19",
+                    "x": 1146,
+                    "y": 295,
+                    "fn": "g.makePoint",
+                    "values": {
+                        "x": 400,
+                        "y": 300
+                    }
+                },
+                {
+                    "name": "rect1",
+                    "x": 405,
+                    "y": 605,
+                    "fn": "g.rect",
+                    "values": {
+                        "width": 50,
+                        "height": 50
+                    }
+                },
+                {
+                    "name": "combine5",
+                    "x": 675,
+                    "y": 975,
+                    "fn": "g.combine"
+                },
+                {
+                    "name": "star1",
+                    "x": 1006,
+                    "y": 605,
+                    "fn": "g.star",
+                    "values": {
+                        "points": 5,
+                        "outer": 60,
+                        "inner": 30
+                    }
+                },
+                {
+                    "name": "polygon1",
+                    "x": 705,
+                    "y": 605,
+                    "fn": "g.polygon",
+                    "values": {
+                        "radius": 33
+                    }
+                },
+                {
+                    "name": "labels1",
+                    "x": 95,
+                    "y": 605,
+                    "fn": "touchdemo01.labels"
+                },
+                {
+                    "name": "mouse",
+                    "x": 1305,
+                    "y": 75,
+                    "fn": "g.makePoint",
+                    "values": {
+                        "y": -100,
+                        "x": 200
+                    }
+                },
+                {
+                    "name": "ellipse1",
+                    "x": 1305,
+                    "y": 495,
+                    "fn": "g.ellipse",
+                    "values": {
+                        "width": 50,
+                        "height": 50
+                    }
+                },
+                {
+                    "name": "colorize1",
+                    "x": 1305,
+                    "y": 615,
+                    "fn": "g.colorize"
+                }
+            ],
+            "connections": [
+                {
+                    "output": "touch0",
+                    "input": "combine1",
+                    "parameter": "list1"
+                },
+                {
+                    "output": "touch1",
+                    "input": "combine1",
+                    "parameter": "list2"
+                },
+                {
+                    "output": "touch2",
+                    "input": "combine1",
+                    "parameter": "list3"
+                },
+                {
+                    "output": "touch3",
+                    "input": "combine1",
+                    "parameter": "list4"
+                },
+                {
+                    "output": "touch4",
+                    "input": "combine1",
+                    "parameter": "list5"
+                },
+                {
+                    "output": "touch5",
+                    "input": "combine2",
+                    "parameter": "list1"
+                },
+                {
+                    "output": "touch6",
+                    "input": "combine2",
+                    "parameter": "list2"
+                },
+                {
+                    "output": "touch7",
+                    "input": "combine2",
+                    "parameter": "list3"
+                },
+                {
+                    "output": "touch8",
+                    "input": "combine2",
+                    "parameter": "list4"
+                },
+                {
+                    "output": "touch9",
+                    "input": "combine2",
+                    "parameter": "list5"
+                },
+                {
+                    "output": "touch10",
+                    "input": "combine3",
+                    "parameter": "list1"
+                },
+                {
+                    "output": "touch11",
+                    "input": "combine3",
+                    "parameter": "list2"
+                },
+                {
+                    "output": "touch12",
+                    "input": "combine3",
+                    "parameter": "list3"
+                },
+                {
+                    "output": "touch13",
+                    "input": "combine3",
+                    "parameter": "list4"
+                },
+                {
+                    "output": "touch14",
+                    "input": "combine3",
+                    "parameter": "list5"
+                },
+                {
+                    "output": "touch15",
+                    "input": "combine4",
+                    "parameter": "list1"
+                },
+                {
+                    "output": "touch16",
+                    "input": "combine4",
+                    "parameter": "list2"
+                },
+                {
+                    "output": "touch17",
+                    "input": "combine4",
+                    "parameter": "list3"
+                },
+                {
+                    "output": "touch18",
+                    "input": "combine4",
+                    "parameter": "list4"
+                },
+                {
+                    "output": "touch19",
+                    "input": "combine4",
+                    "parameter": "list5"
+                },
+                {
+                    "output": "combine2",
+                    "input": "rect1",
+                    "parameter": "position"
+                },
+                {
+                    "output": "rect1",
+                    "input": "combine5",
+                    "parameter": "list2"
+                },
+                {
+                    "output": "combine3",
+                    "input": "polygon1",
+                    "parameter": "position"
+                },
+                {
+                    "output": "polygon1",
+                    "input": "combine5",
+                    "parameter": "list3"
+                },
+                {
+                    "output": "star1",
+                    "input": "combine5",
+                    "parameter": "list4"
+                },
+                {
+                    "output": "combine4",
+                    "input": "star1",
+                    "parameter": "position"
+                },
+                {
+                    "output": "combine1",
+                    "input": "labels1",
+                    "parameter": "points"
+                },
+                {
+                    "output": "labels1",
+                    "input": "combine5",
+                    "parameter": "list1"
+                },
+                {
+                    "output": "mouse",
+                    "input": "ellipse1",
+                    "parameter": "position"
+                },
+                {
+                    "output": "ellipse1",
+                    "input": "colorize1",
+                    "parameter": "shape"
+                },
+                {
+                    "output": "colorize1",
+                    "input": "combine5",
+                    "parameter": "list5"
+                }
+            ],
+            "parameters": [],
+            "returnsList": true
+        },
+        {
+            "name": "label",
+            "type": "network",
+            "renderedNode": "group1",
+            "nodes": [
+                {
+                    "name": "text1",
+                    "x": 315,
+                    "y": 265,
+                    "fn": "g.text",
+                    "values": {
+                        "position": {
+                            "x": 0,
+                            "y": 11
+                        },
+                        "fontSize": 30
+                    }
+                },
+                {
+                    "name": "colorize1",
+                    "x": 315,
+                    "y": 345,
+                    "fn": "g.colorize",
+                    "values": {
+                        "fill": "rgba(255, 255, 255, 1)"
+                    }
+                },
+                {
+                    "name": "combine2",
+                    "x": 215,
+                    "y": 455,
+                    "fn": "g.combine"
+                },
+                {
+                    "name": "ellipse1",
+                    "x": 105,
+                    "y": 265,
+                    "fn": "g.ellipse",
+                    "values": {
+                        "width": 50,
+                        "height": 50
+                    }
+                },
+                {
+                    "name": "group1",
+                    "x": 215,
+                    "y": 515,
+                    "fn": "g.group"
+                },
+                {
+                    "name": "colorize2",
+                    "x": 105,
+                    "y": 345,
+                    "fn": "g.colorize",
+                    "values": {
+                        "fill": "rgba(0, 0, 0, 1)"
+                    }
+                }
+            ],
+            "connections": [
+                {
+                    "output": "text1",
+                    "input": "colorize1",
+                    "parameter": "shape"
+                },
+                {
+                    "output": "combine2",
+                    "input": "group1",
+                    "parameter": "shapes"
+                },
+                {
+                    "inlet": "string",
+                    "input": "text1",
+                    "parameter": "text"
+                },
+                {
+                    "output": "ellipse1",
+                    "input": "colorize2",
+                    "parameter": "shape"
+                },
+                {
+                    "output": "colorize2",
+                    "input": "combine2",
+                    "parameter": "list1"
+                },
+                {
+                    "output": "colorize1",
+                    "input": "combine2",
+                    "parameter": "list2"
+                }
+            ],
+            "parameters": [
+                {
+                    "name": "string",
+                    "type": "str",
+                    "value": "hello"
+                }
+            ],
+            "returnsList": true
+        },
+        {
+            "name": "labels",
+            "type": "network",
+            "renderedNode": "translate1",
+            "nodes": [
+                {
+                    "name": "label1",
+                    "x": 95,
+                    "y": 265,
+                    "fn": "touchdemo01.label"
+                },
+                {
+                    "name": "range1",
+                    "x": 95,
+                    "y": 195,
+                    "fn": "g.range",
+                    "values": {
+                        "max": 46
+                    }
+                },
+                {
+                    "name": "translate1",
+                    "x": 235,
+                    "y": 375,
+                    "fn": "g.translate"
+                },
+                {
+                    "name": "count1",
+                    "x": 95,
+                    "y": 125,
+                    "fn": "g.count"
+                }
+            ],
+            "connections": [
+                {
+                    "output": "range1",
+                    "input": "label1",
+                    "parameter": "string"
+                },
+                {
+                    "output": "label1",
+                    "input": "translate1",
+                    "parameter": "shape"
+                },
+                {
+                    "output": "count1",
+                    "input": "range1",
+                    "parameter": "max"
+                },
+                {
+                    "inlet": "points",
+                    "input": "count1",
+                    "parameter": "l"
+                },
+                {
+                    "inlet": "points",
+                    "input": "translate1",
+                    "parameter": "translate"
+                }
+            ],
+            "parameters": [
+                {
+                    "name": "points",
+                    "type": "point",
+                    "value": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "takesList": true
+                }
+            ],
+            "returnsList": true,
+            "outputType": "shape"
+        }
+    ],
+    "id": "touchdemo01"
+}
