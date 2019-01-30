@@ -18,14 +18,15 @@ You can use these examples with [TongSeng](https://github.com/fajran/tongseng) t
 
 4. Open one of the examples and use your fingers
 
-
 ### [Touch Nodes](01_touch_nodes)
 
 Forward each touch move event to a dedicated nodebox node.
 
+![](assets/img/screenshot-01.png)
+
 ### [Touch Zones](02_touch_zones)
 
-Create dedicated zones to capture touch event
+Create dedicated zones to capture touch event.
 
 ### [Touch Points](03_touch_points)
 
