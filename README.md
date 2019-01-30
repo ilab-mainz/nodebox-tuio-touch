@@ -9,9 +9,13 @@ You can use these examples with [TongSeng](https://github.com/fajran/tongseng) t
 
 
 1. Disable multitouch gestures on your mac (Check out the trackpad settings)
+
 2. Download the TongSeng app [here](https://github.com/fajran/tongseng/releases/download/0.7/Tongseng-0.7.zip).
+
 3. Switch Tongseng to `WEB` mode and press `Start`
+
 ![](assets/img/tongseng-web.png)
+
 4. Open one of the examples and use your fingers
 
 
