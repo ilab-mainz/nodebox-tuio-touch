@@ -28,6 +28,8 @@ Forward each touch move event to a dedicated nodebox node.
 
 Create dedicated zones to capture touch event.
 
+![](assets/img/screenshot-02.png)
+
 ### [Touch Points](03_touch_points)
 
 Sends a collection of points to nodebox, one for each finger.
