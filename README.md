@@ -1,6 +1,6 @@
 ## Nodebox TUIO Touch
 
-Demo templates for creating touch experiments with Nodebox.live using  [TUIO](https://www.tuio.org/).
+Demo templates for creating touch experiments with [Nodebox.live](https://nodebox.live/) using  [TUIO](https://www.tuio.org/).
  
 These examples receive the touch signals via web sockets (port 8080).   
 You can use these examples with [TongSeng](https://github.com/fajran/tongseng) to prototype multitouch experiments on the trackpad / magic pad of your macbook.
