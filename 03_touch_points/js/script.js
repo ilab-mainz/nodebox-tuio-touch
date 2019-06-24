@@ -17,11 +17,11 @@ function onTouchmove(evt) {
     touchlist = evt.touches;
     
     // Send raw touchdata to Nodebox
-    setValue('touchData1', touchlist);
+    //setValue('touchData1', 'data', touchlist);
     
     // Also send points without labels
-    var pointlist = touchlist.map( touch => { return {x: touch.pageX, y: touch.pageYu} });
-    setValue('touchPoints', pointlist);
+    var pointlist = touchlist.map( touch => { return {x: screenX(touch.pageX), y: screenY(touch.pageY)} });
+    setValue('touchpoints1', 'points', pointlist);
  
 }
 
@@ -31,7 +31,7 @@ function initNodebox() {
 
   const options = {
     userId: 'bitcraftlab',
-    projectId: 'touchdemo02',
+    projectId: 'touchdemo03',
     canvasId: 'canvas',
     autoplay: true
   };
@@ -92,11 +92,11 @@ function checkNode(name, fn) {
 
 // from browser coordinates to Nodebox coordinates
 function screenX(x) {
-  return x * screen.width - screen.width /2;
+  return x - screen.width/2; // x * screen.width - screen.width /2;
 }
 
 function screenY(y) {
-  return y * screen.height - screen.height /2;;
+  return y - screen.height/2;// y * screen.height - screen.height /2;
 }
 
 window.addEventListener('load', windowOnLoad);
